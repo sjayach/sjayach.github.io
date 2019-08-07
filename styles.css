@@ -1,0 +1,77 @@
+body {
+  margin: 20px 100px !important;
+  height: 100%;
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  border: 2px solid skyblue;
+  border-radius: 36px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+h1 {
+  margin-top: 10px;
+  text-align: center;
+}
+img {
+  object-fit: contain;
+}
+.inputArea {
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.totalAndPages {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: darkolivegreen;
+  font-weight: bold;
+}
+
+.arrow {
+  margin: 0px 10px;
+  cursor: pointer;
+  font-family: sans-serif;
+  color: darkorchid;
+}
+
+.arrowDisabled {
+  margin: 0px 10px;
+  font-family: sans-serif;
+  color: darkorchid;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.results {
+  padding: 30px;
+}
+
+.noResultsFound {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid skyblue;
+}
+.streamDetails {
+  margin-left: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  width: 500px;
+  word-break: break-all;
+}
+.streamRow {
+  display: flex;
+  margin-bottom: 10px;
+}
+h2 {
+  /* Stream Display Name */
+  margin: 0px;
+}
+
+.resultsContainer {
+  border-top: 2px solid skyblue;
+}
